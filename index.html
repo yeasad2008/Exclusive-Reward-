@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exclusive CPA Rewards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+      color: #1f2937;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      animation: slideDown 1s ease-in-out;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
+
+    @keyframes slideDown {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    header h1 {
+      font-size: 30px;
+      font-weight: bold;
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #cbd5e1;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .offer {
+      background: #f9fafb;
+      border-left: 6px solid #06b6d4;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      margin-bottom: 40px;
+      animation: fadeInUp 0.8s ease both, pulse 3s infinite;
+    }
+
+    .offer:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(6, 182, 212, 0.4); }
+      70% { box-shadow: 0 0 0 15px rgba(6, 182, 212, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(6, 182, 212, 0); }
+    }
+
+    .offer img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      background-color: #e2e8f0;
+    }
+
+    .offer-content {
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .offer-content h2 {
+      font-size: 22px;
+      color: #0f172a;
+      margin-bottom: 10px;
+    }
+
+    .offer-content p {
+      font-size: 15px;
+      color: #2563eb;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background: linear-gradient(90deg, #9333ea, #f43f5e);
+      color: white;
+      padding: 12px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease-in-out;
+      animation: pulseBtn 2.5s infinite;
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #7e22ce, #e11d48);
+    }
+
+    @keyframes pulseBtn {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #6b7280;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Exclusive CPA Rewards For You</h1>
+    <p>Don't miss your chance to grab them – limited time offers!</p>
+  </header>
+  <div class="container">
+
+    <div class="offer">
+      <img src="https://via.placeholder.com/1000x220.png?text=Cash+App+750+Offer" alt="Cash App">
+      <div class="offer-content">
+        <h2>💰 Win $750 Cash App Now!</h2>
+        <p>Get your chance to grab $750 – just a few simple steps.</p>
+        <a href="https://example.com/11111" class="btn" target="_blank">Claim $750</a>
+      </div>
+    </div>
+
+    <div class="offer">
+      <img src="https://via.placeholder.com/1000x220.png?text=7+Eleven+Giftcard" alt="7 Eleven">
+      <div class="offer-content">
+        <h2>🛒 $100 7 Eleven Giftcard</h2>
+        <p>Submit your email & ZIP to enter and win the gift card.</p>
+        <a href="https://example.com/22222" class="btn" target="_blank">Get Reward</a>
+      </div>
+    </div>
+
+    <div class="offer">
+      <img src="https://via.placeholder.com/1000x220.png?text=LuluLemon+Giftcard" alt="LuluLemon">
+      <div class="offer-content">
+        <h2>👚 $500 LuluLemon Giftcard</h2>
+        <p>Limited giftcards available – claim your code now!</p>
+        <a href="https://example.com/33333" class="btn" target="_blank">Claim Giftcard</a>
+      </div>
+    </div>
+
+    <div class="offer">
+      <img src="https://via.placeholder.com/1000x220.png?text=500+Cash+Prize" alt="Cash Prize">
+      <div class="offer-content">
+        <h2>🎉 Win $500 Instantly</h2>
+        <p>Submit details and stand a chance to win $500 cash!</p>
+        <a href="https://example.com/44444" class="btn" target="_blank">Win Now</a>
+      </div>
+    </div>
+
+    <div class="offer">
+      <img src="https://via.placeholder.com/1000x220.png?text=Chick+Fil+A+Offer" alt="Chick Fil A">
+      <div class="offer-content">
+        <h2>🍔 $100 Chick Fil A Card</h2>
+        <p>Enjoy delicious meals for free with your $100 voucher.</p>
+        <a href="https://example.com/55555" class="btn" target="_blank">Get Offer</a>
+      </div>
+    </div>
+
+    <div class="offer">
+      <img src="https://via.placeholder.com/1000x220.png?text=Taco+Bell+Reward" alt="Taco Bell">
+      <div class="offer-content">
+        <h2>🌮 $100 Taco Bell Reward</h2>
+        <p>Don't miss this spicy deal! Grab your $100 giftcard.</p>
+        <a href="https://example.com/66666" class="btn" target="_blank">Grab Now</a>
+      </div>
+    </div>
+
+    <div class="offer">
+      <img src="https://via.placeholder.com/1000x220.png?text=Wendy%27s+Sample" alt="Wendy's">
+      <div class="offer-content">
+        <h2>🍟 Free Wendy’s Food Sample</h2>
+        <p>Try tasty Wendy’s food for free – while supplies last!</p>
+        <a href="https://example.com/77777" class="btn" target="_blank">Get Sample</a>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    &copy; 2025 OfferZone — Grab It Before It's Gone!
+  </footer>
+</body>
+</html>
